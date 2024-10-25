@@ -1,141 +1,106 @@
+# Changelog
+
+## v4.0.0
+
+###### Mar 8, 2024
+
+- Add `TypeScript`
+- Refactor code
+- Replace `date-fns` with `dayjs`
+- Replace `Formik` with `React Hook Form`
+- Replace `Hero Icons` with `Phosphor Icons`
+- Replace `pages` router with `app router`
+- Replace `Yup` with `Zod`
+- Update `eslint` rules
+- Update auth implementation
+- Update dependencies
+- Update design system
+
+## v3.0.0
+
+###### Feb 24, 2023
+
+- Refactor components
+- Replace authentication
+- Update dependencies
+- Update design system
+
+## v2.1.0
+
+###### Sep 15, 2022
+
+- Integrate Zalter Authentication
+- Update dependencies
+
+## v2.0.0
+
+###### Nov 8, 2021
+
+- Migrate to Next.js
+- Update design system
+
 # Change Log
 
-## [3.2.0] 2024-10-22
+## v1.0.0
 
-### Updates & Improvements
+###### Aug 7, 2020
 
-- update Bootstrap to v5.3.3
-- all plugins updated to the latest version
+- Add `eslint`
+- Add `Feather Icons`
+- Add `Formik` for login/register pages
+- Implement `react-router` v6 routing method
+- Remove `node-sass` dependency
+- Remove extra views
+- Update all components to match the PRO version style
+- Update dependencies
+- Update folder structure to remove folder depth
+- Update theme configuration
 
-## [3.1.0] 2023-04-25
+## v0.4.0
 
-### Updates & Improvements
+###### Jul 24, 2019
 
-- update Bootstrap to v5.2.2
-- update Popper to v2.11.6
+- Adjust theme colors
+- Implement `useStyle` hook instead of `withStyles` HOC
+- Implement a custom Route component to wrap views in layouts
+- Remove `services` and `data` folders, each component has its own data
+- Remove unused `.scss` files from `assets` folder
+- Replace `.jsx` with `.js`
+- Replace Class Components with Function Components
+- Replace custom components (Portlet) with Material-UI built-in components
+- Replace dependency `classnames` with `clsx`
+- Update dependencies
+- Update the layout to match the PRO version
 
-## [3.0.5] 2022-10-10
+## v0.3.0
 
-### Updates & Improvements
+###### May 13, 2019
 
-- update Bootstrap to v5.2.2
-- update Popper to v2.11.6
-- update `start-0` and `end-0` classes on RTL
-- fix perfectScrollbar issue on RTL
-- fix the NavTabs second active tab issue
+- Implement `jsconfig.json` file and removed `.env` to match React v16.8.6 absolute paths
+- Update chart styles and options
+- Update Dashboard view top widgets styles and structure
+- Update few icons to match @material-ui v4 updates
+- Update React version to 16.8.6 to support React Hooks
+- Update to @material-ui to 4.0.0-beta
 
-## [3.0.4] 2022-06-15
+## v0.2.0
 
-### BugFixing
+###### May 11, 2019
 
-- fix inputs on RTL
-- update <html> tag border
+- Add docs for IE11 polyfill
+- Fix `DisplayMode` component size, when used as a flex child it could grow/shrink
+- Fix `ProductCard` component description height
+- Fix `Typography` view responsiveness for small devices
+- Fix charts responsiveness
+- Remove "status" from `ProductCard` component since it was not part of released design
+- Remove `auth` service folder since it won't be implemented for this version
+- Remove `authGuard` since it won't be used in this version
+- Remove unused components from shared components
+- Remove unused scss from assets
+- Update README.md
 
-## [3.0.3] 2022-06-08
+## v0.1.0
 
-### Update and Improvements
+###### May 2, 2019
 
-- update Bootstrap to v5.2.0-beta1
-- fix modal close button on docs
-- update color of `.form-control` on Dark Mode
-- update typo on card stats
-- fix Safari browser button styling issue
-- add sticky navbar option on Profile page
-- add link to Sign In page in navbar
-- update dropdown item color on hover - Dark Mode
-
-## [3.0.2] 2022-03-25
-
-### Updates
-
-- update SCSS folder
-
-## [3.0.1] 2022-03-07
-
-### Update and Improvements
-
-- fix running 'npm install' issue
-- fix SCSS compiling issues
-
-## [3.0.0] 2021-10-19
-
-### Refactor and Improvements
-
-- Update Bootstrap to v5.1.3
-- Update to Material Design 2
-- New Documentation version
-- New Product structure
-
-## [2.1.2] 2020-02-11
-
-### Improvements, BugFixing
-
-- Fixed the broken links
-- Improvements and BugFixing for documentation
-- Change versions on CSS and JS files
-
-## [2.1.1] 2018-11-13
-
-### Improvements, BugFixing
-
-- Changes for responsive devices
-- Improvements and BugFixing for documentation
-- Change versions on CSS and JS files
-- Pro Documentation integrated in Free Version
-- Eliminated extra CSS and JS
-
-## [2.1.0] 2018-06-13
-
-### Bug fixing
-
-- Card-chart fixed on Windows
-- Bug fixes for responsive devices
-- Small changes for components
-
-## [2.0.0] 2018-03-27
-
-### Bootstrap 4 update
-
-- Core base code on Bootstrap 4
-- Documentation code base written from scratch
-- Speed optimizations
-- Class changes : .card-block to .card-body
-  - .navbar-toggleable-_ to .navbar-expand-_
-  - .hidden-_-down to .d-none .d-_-block
-  - .hidden-_-up to .d-_-none
-  - .checkbox to .form-check
-  - .radio to .form-check
-  - more class changes here:https://getbootstrap.com/docs/4.0/migration/
-- Bug fixes for responsive devices
-- Small changes for components
-
-## [1.2.0] 2017-09-08
-
-### BugFixing
-
-- added PerfectScrollbar for windows better scroll
-- added arrive.js library for dynamic content
-- fix issue with charts when resizing window
-- change size of buttons for notifications on mobile
-- added pagination style
-- fixed issue with Bootstrap modal
-- added fixed navbar
-- documentation updates
-- minor design fixes
-
-## [1.1.1] 2017-02-08
-
-### MIT License
-
-- switched to MIT License
-
-## [1.1.0] 2016-11-10
-
-### New Page Added, Small Fixes
-
-- fix link in documentation
-- for those who want to upsell inside their dashboard we added a new page "Upgrade to PRO" with a pricing and options table
-
-## [1.0.0] 2016-09-21
-
-### Initial Release
+### Initial commit
