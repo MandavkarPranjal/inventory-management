@@ -68,7 +68,7 @@ export function LatestOrders({ orders = [], sx }: LatestOrdersProps): React.JSX.
         </Table>
       </Box>
       <Divider />
-      <CardActions sx={{ justifyContent: 'flex-end' }}>
+      {/* <CardActions sx={{ justifyContent: 'flex-end' }}>
         <Button
           color="inherit"
           endIcon={<ArrowRightIcon fontSize="var(--icon-fontSize-md)" />}
@@ -77,7 +77,7 @@ export function LatestOrders({ orders = [], sx }: LatestOrdersProps): React.JSX.
         >
           View all
         </Button>
-      </CardActions>
+      </CardActions> */}
     </Card>
   );
 }
